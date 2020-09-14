@@ -4,9 +4,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div class="relative">
-      This div element has position: relative;
-      <div class="absolute">This div element has position: absolute;</div>
+    <div className="centering">
+      <div id="cylinder">
+        <div id="ball"></div>
+      </div>
     </div>
   );
 }
