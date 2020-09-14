@@ -1,0 +1,21 @@
+.login {
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border: 1px #ccc solid;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  border-radius: 3%;
+}
+
+.login input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.color {
+  left: 5px;
+  color: darkblue;
+}

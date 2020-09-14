@@ -1,0 +1,15 @@
+p {
+  background-color: yellow;
+  padding: 20px;
+  display: none;
+}
+
+span {
+  background-color: chocolate;
+}
+
+span:hover + p {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
